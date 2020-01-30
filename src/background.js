@@ -23,7 +23,7 @@ function createWindow () {
       nodeIntegration: true
     },
     // eslint-disable-next-line no-undef
-    icon: `${__static}/cat.svg`
+    icon: `${__static}/m416.ico`
   })
 
   if (process.env.WEBPACK_DEV_SERVER_URL) {

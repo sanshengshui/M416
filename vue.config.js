@@ -17,5 +17,18 @@ module.exports = {
       .set('src', resolve('src'))
       .set('common', resolve('src/common'))
       .set('components', resolve('src/components'));
+  },
+  pluginOptions: {
+    electronBuilder: {
+      builderOptions: {
+        win: {
+          icon: './public/m416.ico'
+        },
+        mac: {
+          icon: './public/m416.png'
+        },
+        productName: 'M416'
+      }
+    }
   }
-};
+}
