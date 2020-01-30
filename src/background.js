@@ -21,7 +21,10 @@ function createWindow () {
     webPreferences: {
       webSecurity: false,
       nodeIntegration: true
-    } })
+    },
+    // eslint-disable-next-line no-undef
+    icon: `${__static}/cat.svg`
+  })
 
   if (process.env.WEBPACK_DEV_SERVER_URL) {
     // Load the url of the dev server if in development mode
